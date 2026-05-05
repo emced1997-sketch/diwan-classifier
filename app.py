@@ -1,5 +1,5 @@
-st.subheader("🧭 Ahlaki Harita (Ethical Map)")
-
+import streamlit as st
+st.set_page_config(page_title="Divan Ahlaki Analiz", layout="wide")
 # حساب التوزيع
 if results:
     stats = {}
